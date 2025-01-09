@@ -2,6 +2,8 @@
     display:grid;
     grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
+    gap: 2rem;
+    align-items: center;
 }
 
 .about__data {
@@ -41,3 +43,52 @@
     row-gap: 1.25rem;
 }
 
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__number {
+    line-height: 1.2;
+}
+
+.skills__bar,
+.skills__percentage {
+    height: 7px;
+    border-radius: 0.25rem;
+}
+
+.skills__bar {
+    background-color: #f1f1f1;
+    /* position: relative; */
+}
+
+.skills__percentage {
+    display: block;
+    /* background-color: var(--first-color); */
+}
+
+.development {
+    width: 90%;
+    background-color: rgb(255, 209, 92);
+}
+
+.ui__design {
+    width: 80%;
+    background-color: rgb(255, 76, 96);
+}
+
+.photography {
+    width: 60%;
+    background-color: rgb(108, 108, 299);
+}
+
+.about__boxes {
+    
+}

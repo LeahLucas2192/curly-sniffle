@@ -8,23 +8,23 @@ const servicesData = [
   {
     id: 1,
     image: Image1,
-    title: "UI/UX design",
+    title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I design visually stunning and user-friendly interfaces that provide seamless experiences. By combining creativity and strategy, I ensure every design aligns with user needs and business goals.",
   },
   {
     id: 2,
     image: Image2,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I specialize in building responsive, functional, and aesthetically pleasing websites. From concept to deployment, I deliver solutions tailored to your unique requirements.",
   },
   {
     id: 3,
     image: Image3,
     title: "Photography",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I capture captivating moments and visuals that enhance storytelling. My photography complements digital projects, ensuring a cohesive and professional aesthetic.",
   },
 ];
 

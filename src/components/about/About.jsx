@@ -2,6 +2,7 @@ import React from 'react';
 import "./about.css";
 import Me from "../../assets/me.jpg";
 import AboutBox from './AboutBox';
+import CV from "../../assets/Resume_webdev_2024.pdf";
 
 function About() {
   return (
@@ -13,8 +14,8 @@ function About() {
 
         <div className="about__data grid">
          <div className="about__info">
-          <p className="about__description">I am Leah Lucas, web developer from Tacoma, Washington. I have rich experience in web design..etc (finish bio l8tr)</p>
-          <a href="" className="btn">Download CV</a>
+          <p className="about__description">I am Leah Lucas, web developer from Tacoma, Washington. I have rich experience in web site design and building & customization, also I am good at WordPress</p>
+          <a href={CV} download="LeahLucas_CV.pdf" className="btn">Download CV</a>
          </div>
 
          <div className="about__skills grid">

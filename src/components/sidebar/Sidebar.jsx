@@ -4,6 +4,7 @@ import Logo from "../../assets/logo.svg";
 
 function Sidebar() {
   return (
+    <>
     <aside className='aside'>
       <a href="home" className="nav__logo">
         <img src={Logo} alt="" />
@@ -37,16 +38,16 @@ function Sidebar() {
             </li>
 
             <li className='nav__item'>
-              <a href="#portfolio" className='nav__link'>
+              <a href="#work" className='nav__link'>
               <i className='icon-layers'></i>
               </a>
             </li>
 
-            <li className='nav__item'>
+            {/* <li className='nav__item'>
               <a href="#blog" className='nav__link'>
               <i className='icon-note'></i>
               </a>
-            </li>
+            </li> */}
 
             <li className='nav__item'>
               <a href="#contact" className='nav__link'>
@@ -62,7 +63,12 @@ function Sidebar() {
         <span className="copyright">&copy; 2025 - 2026.</span>
       </div>
     </aside>
-  )
-}
+
+    <div className="nav__toggle">
+      <i className="icon-menu"></i>
+    </div>
+    </>
+  );
+};
 
 export default Sidebar

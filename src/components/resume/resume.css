@@ -78,6 +78,15 @@
     }
 
     .timeline__item::before {
-        
+        left: 0;
+    }
+
+    .timeline__icon-briefcase, 
+    .timeline_icon-graduation {
+        left: -9px;
+    }
+
+    .timeline__text {
+        text-align: justify;
     }
   }

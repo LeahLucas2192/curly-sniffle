@@ -9,20 +9,24 @@ const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "Project Management Illustration",
-      category: "Design",
+      title: "Weather API App",
+      category: "Web",
+      link: "https://leahlucas2192.github.io/musical-tribble/",
     },
     {
       id: 2,
       image: Work2,
-      title: "Guest App Walkthrough Screens",
-      category: "Art",
+      title: "Password Generator App",
+      category: "Web",
+      link: "https://leahlucas2192.github.io/password-generator-extraordinaire/",
+
     },
     {
       id: 3,
       image: Work3,
-      title: "Delivery App Wireframe",
-      category: "Branding",
+      title: "WorkDay Scheduler App",
+      category: "Web",
+      link: "https://leahlucas2192.github.io/fantastic-pancake/",
     },
     {
       id: 4,
@@ -40,7 +44,7 @@ const Menu = [
       id: 6,
       image: Work6,
       title: "Game Store App Concept",
-      category: "Art",
+      category: "Photography",
     },
   ];
   

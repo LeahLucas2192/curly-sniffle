@@ -27,10 +27,16 @@ function Sidebar() {
             </li>
 
             <li className='nav__item'>
+              <a href="#skills" className='nav__link'>
+              <i className='icon-star'></i>
+              </a>
+            </li>
+
+            {/* <li className='nav__item'>
               <a href="#services" className='nav__link'>
               <i className='icon-briefcase'></i>
               </a>
-            </li>
+            </li> */}
 
             <li className='nav__item'>
               <a href="#resume" className='nav__link'>
